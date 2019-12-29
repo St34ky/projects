@@ -52,4 +52,6 @@ body{
     padding: 10px 10px;
     background:white;
     border:2px solid rgb(0, 81, 255);
+    width : 170px;
+    text-align:center;
 }
