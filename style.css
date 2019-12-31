@@ -26,7 +26,17 @@ body{
 #navbar ul{
     display:flex;
     margin-left:20px;
+    width: 500px;
+    justify-content:space-between;
 }
+#navbar ul .clock{
+    width : 150px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    font-size:12px;
+}
+
 #navbar ul li{
     list-style-type:none;
     margin: 20px 0 0 35px;
@@ -44,6 +54,8 @@ body{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+    background:rgba(0,0,0,0.7);
+    padding: 20px 20px 50px;
 }
 .video-container h1{
     text-align:center;
@@ -57,17 +69,17 @@ body{
     letter-spacing: 5px;
 }
 .video-container p{
-    width: 500px;
+    width: 450px;
     margin: 0 auto;
     text-shadow: 0 2px 2px black;
     text-align:justify;
 }
 
 .buttons{
-    position:absolute;
-    top:80%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    padding-top:20px;
 }
 .buttons > input{
     padding: 10px 20px;
@@ -77,6 +89,7 @@ body{
     border:1px solid white;
     border-radius:5px;
     opacity:.8;
+    margin:0px 10px;
 }
 
 .buttons > input:hover{
@@ -88,5 +101,4 @@ body{
 
 .buttons > input:nth-child(2){
     background: rgb(196, 3, 99);
-    margin-left:20px;
 }
